@@ -1,0 +1,116 @@
+div,p,a{
+    
+    font-family: arial,sans-serif;
+}
+a {
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:underline; 
+     cursor:pointer;  
+}
+
+    
+.augsa{
+    width:100%;
+    position: absolute;
+    margin: 10px;
+    right: 0;
+    top: 0;
+    display:flex;
+    flex-direction: row-reverse;
+    font-size:14px;
+    
+
+}
+#augsa{
+    margin: 10px;
+}
+.leja{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height:30px;
+    display:flex;
+    background-color: rgb(191, 196, 199);
+   
+
+}
+.leja1{
+    margin:5px;
+   font-size: 15px;
+   
+}
+.leja-kreisi{
+    position: absolute;
+    left:10px;
+    width:50%;
+    display:flex;
+
+
+}
+.leja-labi{
+    position: absolute;
+    right:10px;
+    width:50%;
+    display:flex;
+    flex-flow: row-reverse;
+}
+.input{
+    position: absolute;
+    top: 315px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    position: absolute;
+    width:100%;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+#searchbar{
+    width: 450px;
+}
+#border-bar{
+    display:flex;
+    height:75px;
+    width:510px;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.button{
+    margin:10px;
+    height:30px;
+    margin-top:20px;
+}
+.zemak{
+    display:flex;
+    width:100%;
+    position: absolute;
+    top: 400px;
+    justify-content: center;
+    font-size:15px;
+    
+
+}
+#search-icon{
+width: 20px;
+height: 20px;
+margin:2px;
+}
+
+#keyboard-svg{
+    width:20px;
+    width:20px;
+    margin:2px;
+}
