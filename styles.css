@@ -25,12 +25,29 @@ a:hover
     display:flex;
     flex-direction: row-reverse;
     font-size:14px;
+    align-items: center;
     
 
 }
 #augsa{
     margin: 10px;
 }
+.sign-up{
+    color: white;
+    background-color:blue;
+    border:none;
+    border-radius: 3px;
+    height: 28px;
+    font: arial;
+    font-size: 14px;
+}
+
+.sign-up:hover {
+background-color: rgb(101, 181, 255);
+
+border-color:black;
+}
+
 .leja{
     position: absolute;
     bottom: 0;
@@ -77,12 +94,16 @@ a:hover
 
 }
 #searchbar{
-    width: 450px;
+    width: 500px;
+border-radius: 20px;
+border: 1px solid #ccc;
+height: 40px;
+padding:10px;
 }
 #border-bar{
     display:flex;
-    height:75px;
-    width:510px;
+    height:100px;
+    width:600px;
     flex-flow:row wrap;
     justify-content: center;
     align-items: center;
@@ -92,6 +113,16 @@ a:hover
     margin:10px;
     height:30px;
     margin-top:20px;
+    background-color: rgba(204, 204, 204, 0.479);
+    color:rgb(92, 89, 89);
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+    
+}
+.button:hover{
+    background-color:rgb(240, 232, 232);
+   
 }
 .zemak{
     display:flex;
@@ -100,6 +131,7 @@ a:hover
     top: 400px;
     justify-content: center;
     font-size:15px;
+    margin:20px;
     
 
 }
